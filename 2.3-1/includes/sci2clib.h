@@ -103,6 +103,9 @@
 /* interfacing acos */
 #include "acos.h"
 #include "int_acos.h"
+/* interfacing acosd */
+#include "acosd.h"
+#include "int_acosd.h"
 /* interfacing acosh */
 #include "acosh.h"
 #include "int_acosh.h"

@@ -109,6 +109,7 @@ function allHeaders = getAllHeaders(Target)
       "src/c/elementaryFunctions/includes/int8.h"
       "src/c/elementaryFunctions/includes/uint16.h"
       "src/c/elementaryFunctions/includes/int16.h"
+      "src/c/elementaryFunctions/includes/acosd.h"
       "src/c/statisticsFunctions/includes/variance.h"
       "src/c/statisticsFunctions/includes/sum.h"
       "src/c/statisticsFunctions/includes/mean.h"

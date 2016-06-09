@@ -98,6 +98,7 @@ function allInterfaces = getAllInterfaces(Target)
       "src/c/elementaryFunctions/interfaces/int_int8.h"
       "src/c/elementaryFunctions/interfaces/int_uint16.h"
       "src/c/elementaryFunctions/interfaces/int_int16.h"
+      "src/c/elementaryFunctions/interfaces/int_acosd.h"
       "src/c/statisticsFunctions/interfaces/int_mean.h"
       "src/c/statisticsFunctions/interfaces/int_meanf.h"
       "src/c/statisticsFunctions/interfaces/int_stdevf.h"
