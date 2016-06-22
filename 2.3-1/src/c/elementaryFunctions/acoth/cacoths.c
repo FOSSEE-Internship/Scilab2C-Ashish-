@@ -12,7 +12,6 @@
 
 #include <math.h>
 #include "acoth.h"
-#include "complex.h"
 #include "division.h"
 #include "floatComplex.h"
 #include "atanh.h"

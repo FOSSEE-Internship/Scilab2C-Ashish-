@@ -2,7 +2,6 @@
 #include "acsch.h"
 #include "floatComplex.h"
 #include "asin.h"
-#include "complex.h"
 #include "division.h"
 
 floatComplex cacschs(floatComplex x) 

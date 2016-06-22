@@ -39,7 +39,7 @@ if(mode>=3) then
 disp("Error : Invalid input argument ''mode'' in AVRUARTSetup function.");
 end
 
-if((baudrate!=2400)&(baudrate!=4800)&(baudrate!=9600)&(baudrate!=14400)&(baudrate!=28800)&(baudrate!     =38400)&(baudrate!=57600)&(baudrate!=768000)&(baudrate!=115200)&(baudrate!=230400)&(baudrate!=250000)& (baudrate!=1000000)) then 
+if((baudrate <> 2400)&(baudrate <> 4800)&(baudrate <> 9600)&(baudrate <> 14400)&(baudrate <> 28800)&(baudrate <> 38400)&(baudrate <> 57600)&(baudrate <> 768000)&(baudrate <> 115200)&(baudrate <> 230400)&(baudrate <> 250000)& (baudrate <> 1000000)) then 
 disp("Error : Invalid input argument ''baudrate'' in AVRUARTSetup function.");
 end
 if(stopbits>=2) then
