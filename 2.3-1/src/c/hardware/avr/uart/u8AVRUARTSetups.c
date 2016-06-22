@@ -137,6 +137,6 @@ switch(baudrate)
 }
 
 //Set data format
-UCSRC|= (1<<URSEL)|(1<<UC SZ0)|(1<<UCSZ1);  
+UCSRC|= (1<<URSEL)|(1<<UCSZ0)|(1<<UCSZ1);  
 
 }
