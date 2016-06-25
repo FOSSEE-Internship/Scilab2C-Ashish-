@@ -1062,10 +1062,17 @@ function allSources = getAllSources(Target)
       "src/c/hardware/avr/timer/u8AVRGetTimerValues.c"
       "src/c/hardware/avr/uart/u8AVRUARTReceiveCharu8.c"
       "src/c/hardware/avr/uart/u8AVRUARTSetups.c"
-      "src/c/hardware/avr/uart/dAVRUARTTransmitu8.c"
-      "src/c/hardware/avr/uart/i16AVRUARTTransmitu8.c"
-      "src/c/hardware/avr/uart/gAVRUARTTransmitu8.c"
-      "src/c/hardware/avr/uart/u16AVRUARTTransmitu8.c"
+      "src/c/hardware/avr/uart/u8AVRUARTTransmits.c"
+      "src/c/hardware/avr/uart/i16AVRUARTTransmits.c"
+      "src/c/hardware/avr/uart/i8AVRUARTTransmits.c"
+      "src/c/hardware/avr/uart/gAVRUARTTransmits.c"
+      "src/c/hardware/avr/uart/u16AVRUARTTransmits.c"
+      "src/c/hardware/avr/uart/u8AVRUARTTransmita.c"
+      "src/c/hardware/avr/uart/i16AVRUARTTransmita.c"
+      "src/c/hardware/avr/uart/i8AVRUARTTransmita.c"
+      "src/c/hardware/avr/uart/gAVRUARTTransmita.c"
+      "src/c/hardware/avr/uart/u16AVRUARTTransmita.c"
+
          ];
 
   RPI_files = [

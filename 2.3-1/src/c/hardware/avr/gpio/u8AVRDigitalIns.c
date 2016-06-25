@@ -50,5 +50,4 @@ uint8 u8AVRDigitalIns(uint8 port,uint8 pin)
 	return state;
     }
 
-//return state;
 }

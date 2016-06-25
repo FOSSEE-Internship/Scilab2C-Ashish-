@@ -66,5 +66,6 @@ uint8 u8AVRDigitalPortSetups(uint8 port,uint8 direction)
      DDRD = 0xFF;
     }
    }
+ return 0;
 }   
  

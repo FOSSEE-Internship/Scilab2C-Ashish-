@@ -5090,7 +5090,16 @@ PrintStringInfo('u80'+ArgSeparator+'u80',ClassFileName,'file','y');
 PrintStringInfo('i80'+ArgSeparator+'u80',ClassFileName,'file','y');
 PrintStringInfo('u160'+ArgSeparator+'u80',ClassFileName,'file','y');
 PrintStringInfo('i160'+ArgSeparator+'u80',ClassFileName,'file','y');
+PrintStringInfo('g0'+ArgSeparator+'u80',ClassFileName,'file','y');
+//
+PrintStringInfo('d2'+ArgSeparator+'u80',ClassFileName,'file','y');
+PrintStringInfo('s2'+ArgSeparator+'u80',ClassFileName,'file','y');
+PrintStringInfo('u82'+ArgSeparator+'u80',ClassFileName,'file','y');
+PrintStringInfo('i82'+ArgSeparator+'u80',ClassFileName,'file','y');
+PrintStringInfo('u162'+ArgSeparator+'u80',ClassFileName,'file','y');
+PrintStringInfo('i162'+ArgSeparator+'u80',ClassFileName,'file','y');
 PrintStringInfo('g2'+ArgSeparator+'u80',ClassFileName,'file','y');
+
 //PrintStringInfo('d0d0u80'+ArgSeparator+'u80',ClassFileName,'file','y');
 PrintStringInfo(''+ArgSeparator+'',ClassFileName,'file','y');
 

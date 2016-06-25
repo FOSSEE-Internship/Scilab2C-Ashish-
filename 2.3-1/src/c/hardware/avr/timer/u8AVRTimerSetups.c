@@ -90,6 +90,7 @@ uint8 u8AVRTimerSetups(uint8 timer,uint16 prescaler,uint8 clock_source)
     TCNT1L = 0x00;
    } 
   }  
+ return 0;
 }
 
    
