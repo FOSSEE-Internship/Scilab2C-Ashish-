@@ -15,6 +15,7 @@
 
 uint8 u8AVRTimerSetups(uint8 timer,uint16 prescaler,uint8 clock_source)
 {
+ 
  if(clock_source==0)
  {
   if(timer==0)

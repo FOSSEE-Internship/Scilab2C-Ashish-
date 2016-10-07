@@ -1070,8 +1070,11 @@ function allSources = getAllSources(Target)
       "src/c/hardware/avr/uart/u8AVRUARTTransmita.c"
       "src/c/hardware/avr/uart/i16AVRUARTTransmita.c"
       "src/c/hardware/avr/uart/i8AVRUARTTransmita.c"
-      "src/c/hardware/avr/uart/gAVRUARTTransmita.c"
+      "src/c/hardware/avr/uart/dAVRUARTTransmits.c"
+//      "src/c/hardware/avr/uart/gAVRUARTTransmita.c"
       "src/c/hardware/avr/uart/u16AVRUARTTransmita.c"
+//      "src/c/hardware/avr/uart/sAVRUARTTransmits.c"
+
 
          ];
 

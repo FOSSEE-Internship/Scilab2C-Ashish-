@@ -14,12 +14,18 @@
 
 #include "AVRPeripheralUART.h"
 
-uint8 gAVRUARTTransmits(uint8 *msg)
+
+uint8 gAVRUARTTransmits(char* msg,int size)
 {
  while(*msg!='\0')
  {
-  u8AVRUARTTransmits(*msg);
+  while ( !( UCSRA & (1<<UDRE)) ) ; // Wait for empty transmit buffer 
+  UDR = *msg; // Put data into buffer, sends the data 
   msg++;
  }
+while ( !( UCSRA & (1<<UDRE)) ) ; // Wait for empty transmit buffer 
+ UDR = (10); // Put data into buffer, sends the data 
+ while ( !( UCSRA & (1<<UDRE)) ) ; // Wait for empty transmit buffer 
+ UDR = (13); // Put data into buffer, sends the data 
  return 0;
 }

@@ -51,9 +51,9 @@ disp("Error : Invalid input argument ''waveform_mode'' in AVRPWM1Setup function.
 end
 if(waveform_mode==0|waveform_mode==1) then
 {
- if((type(output_mode)~=8)|(output_mode>=2)) then
- disp("Error : Invalid input argument ''output_mode'' in AVRPWM1Setup function.");
- end 
+ //if((type(output_mode)~=8)|(output_mode>=2)) then
+ //disp("Error : Invalid input argument ''output_mode'' in AVRPWM1Setup function.");
+ //end 
 }
 end
 if(waveform_mode==2) then

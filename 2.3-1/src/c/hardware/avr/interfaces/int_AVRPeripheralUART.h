@@ -18,7 +18,7 @@ extern "C" {
 
 #define u80AVRUARTTransmitu80(in1) u8AVRUARTTransmits((uint8) in1);
 
-#define g0AVRUARTTransmitu80(in1) gAVRUARTTransmits((uint8) in1);
+#define g2AVRUARTTransmitu80(in1,in2) gAVRUARTTransmits((char*) in1,in2[0]*in2[1]);
 
 #define u160AVRUARTTransmitu80(in1) u16AVRUARTTransmits((uint16) in1);
 
@@ -28,7 +28,9 @@ extern "C" {
 
 #define u82AVRUARTTransmitu80(in1,in2) u8AVRUARTTransmita((uint8) in1,in2[0]*in2[1]);
 
-#define g2AVRUARTTransmitu80(in1,in2) gAVRUARTTransmita((uint8) in1,in2[0]*in2[1]);
+#define d0AVRUARTTransmitu80(in1) dAVRUARTTransmits((double) in1);
+
+//#define g2AVRUARTTransmitu80(in1,in2) gAVRUARTTransmita((char*) in1,in2[0]*in2[1]);
 
 #define u162AVRUARTTransmitu80(in1,in2) u16AVRUARTTransmita((uint16) in1,in2[0]*in2[1]);
 
@@ -37,6 +39,10 @@ extern "C" {
 #define i82AVRUARTTransmitu80(in1,in2) i8AVRUARTTransmita((int8) in1,in2[0]*in2[1]);
 
 #define u80AVRUSARTReceiveCharu80() u8AVRUSARTReceiveCharu8();
+
+//#define s0AVRUARTTransmitu80(in1) sAVRUARTTransmits((float) in1);
+
+
 
 #ifdef  __cplusplus
 } /* extern "C" */

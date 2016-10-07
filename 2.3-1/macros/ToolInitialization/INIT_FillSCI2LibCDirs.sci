@@ -4775,7 +4775,7 @@ PrintStringInfo('   Adding Class: '+ClassName+'.',GeneralReport,'file','y');
 ClassFileName = fullfile(SCI2CLibCAnnClsDir,ClassName+ExtensionCAnnCls);
 PrintStringInfo('NIN=         1',ClassFileName,'file','y');
 PrintStringInfo('NOUT=         1       ',ClassFileName,'file','y');
-PrintStringInfo('OUT(1).TP=    ''u16''',ClassFileName,'file','y');
+PrintStringInfo('OUT(1).TP=    ''u8''',ClassFileName,'file','y');
 PrintStringInfo('OUT(1).SZ(1)= ''1''',ClassFileName,'file','y');
 PrintStringInfo('OUT(1).SZ(2)= ''1''',ClassFileName,'file','y');
 
@@ -5084,21 +5084,23 @@ PrintStringInfo('OUT(1).SZ(2)= ''1''',ClassFileName,'file','y');
 
 // --- Function List Class. ---
 ClassFileName = fullfile(SCI2CLibCFLClsDir,ClassName+ExtensionCFuncListCls);
-PrintStringInfo('d0'+ArgSeparator+'u80',ClassFileName,'file','y');
+//PrintStringInfo('d0'+ArgSeparator+'u80',ClassFileName,'file','y');
 PrintStringInfo('s0'+ArgSeparator+'u80',ClassFileName,'file','y');
 PrintStringInfo('u80'+ArgSeparator+'u80',ClassFileName,'file','y');
 PrintStringInfo('i80'+ArgSeparator+'u80',ClassFileName,'file','y');
 PrintStringInfo('u160'+ArgSeparator+'u80',ClassFileName,'file','y');
 PrintStringInfo('i160'+ArgSeparator+'u80',ClassFileName,'file','y');
 PrintStringInfo('g0'+ArgSeparator+'u80',ClassFileName,'file','y');
+PrintStringInfo('d0'+ArgSeparator+'u80',ClassFileName,'file','y');
 //
-PrintStringInfo('d2'+ArgSeparator+'u80',ClassFileName,'file','y');
+//PrintStringInfo('d2'+ArgSeparator+'u80',ClassFileName,'file','y');
 PrintStringInfo('s2'+ArgSeparator+'u80',ClassFileName,'file','y');
 PrintStringInfo('u82'+ArgSeparator+'u80',ClassFileName,'file','y');
 PrintStringInfo('i82'+ArgSeparator+'u80',ClassFileName,'file','y');
 PrintStringInfo('u162'+ArgSeparator+'u80',ClassFileName,'file','y');
 PrintStringInfo('i162'+ArgSeparator+'u80',ClassFileName,'file','y');
 PrintStringInfo('g2'+ArgSeparator+'u80',ClassFileName,'file','y');
+PrintStringInfo('d2'+ArgSeparator+'u80',ClassFileName,'file','y');
 
 //PrintStringInfo('d0d0u80'+ArgSeparator+'u80',ClassFileName,'file','y');
 PrintStringInfo(''+ArgSeparator+'',ClassFileName,'file','y');

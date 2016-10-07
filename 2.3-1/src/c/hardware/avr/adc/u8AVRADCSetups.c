@@ -21,22 +21,23 @@
 //
 // Authors
 //     Siddhesh Wani
-//
+//     Ashish Kamble  
 
 #include "AVRPeripheralADC.h"
 
 
 uint8 u8AVRADCSetups(uint8 prescaler, uint8 adc_ref)
 {
-    /*Set the prescaler value*/
-    ADCSRA |= (prescaler & 0x07);
+/*Set the prescaler value*/
+  ADCSRA |= (prescaler & 0x07);
 
     /*Set the adc reference voltage*/
-    ADMUX |= ((adc_ref & 0x03) << 6);
+  ADMUX |= ((adc_ref & 0x03) << 6);
 
     /*Enable ADC hardware. Set ADEN bit*/
-    ADCSRA |= (1<<7); 	
+ADCSRA |= (1<<7); 	
 
-    return 0;
+return 0;   
 }
+
 
